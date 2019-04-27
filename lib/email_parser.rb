@@ -11,8 +11,6 @@ class EmailParser
     list = email.split(", " || " ")
     email = EmailParser.new 
     email 
-    end
-    email 
   end 
-  email 
+  list  
 end 
