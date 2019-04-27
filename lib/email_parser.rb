@@ -8,8 +8,7 @@ class EmailParser
   attr_accessor :emails 
   
   def self.parse(email)
-    list = email.collect do |items|
-      data = items.split(", " || " ")
+    list = email.split(", " || " ")
     email = EmailParser.new 
     email 
     end
