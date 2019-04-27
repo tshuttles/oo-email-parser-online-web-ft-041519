@@ -12,6 +12,6 @@ class EmailParser
   end 
   
   def parse 
-    @list.delete_if {|emails| emails}.uniq 
+    @list.delete_if {|emails| emails.empty?}.uniq 
   end 
 end 
