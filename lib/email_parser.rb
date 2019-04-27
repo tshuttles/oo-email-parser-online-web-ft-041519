@@ -7,8 +7,6 @@ class EmailParser
   
   attr_accessor :emails 
   
-  csv data = ""
-  
   def self.parse(email)
     
   end 
