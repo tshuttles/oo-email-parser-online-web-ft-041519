@@ -8,7 +8,9 @@ class EmailParser
   attr_accessor :emails 
   
   def self.parse(email)
-    
+    people = rows.collect do |row|
+      # Split the row into 3 parts, name, age, company, at the ", "
+      data = row.split(", ")
   end 
   
 end 
