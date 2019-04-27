@@ -12,6 +12,6 @@ class EmailParser
   end 
   
   def parse 
-    @list = 
+    @list.delete_if 
   end 
 end 
