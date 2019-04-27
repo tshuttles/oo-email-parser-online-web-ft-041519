@@ -14,5 +14,5 @@ class EmailParser
     end
     email 
   end 
-  
+  email 
 end 
