@@ -7,7 +7,7 @@ class EmailParser
   
   attr_accessor :emails 
   
-  def self.parse(email)
+  def parse(email)
     list = email.split(", " || " ")
     email = EmailParser.new 
     list << email 
