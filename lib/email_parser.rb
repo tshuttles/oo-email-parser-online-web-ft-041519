@@ -12,5 +12,5 @@ class EmailParser
     email = EmailParser.new 
     email 
   end 
-  list  
+  list 
 end 
