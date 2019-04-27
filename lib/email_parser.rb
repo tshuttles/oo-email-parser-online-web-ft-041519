@@ -9,7 +9,7 @@ class EmailParser
   
   csv data = ""
   
-  def parse(email)
+  def self.parse(email)
     
   end 
   
