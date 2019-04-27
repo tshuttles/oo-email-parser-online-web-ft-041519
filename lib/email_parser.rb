@@ -8,7 +8,7 @@ class EmailParser
   attr_accessor :emails 
   
   def self.parse(email)
-    list = email.collect do ||
+    list = email.collect do |items|
       data = row.split(", ")
   end 
   
