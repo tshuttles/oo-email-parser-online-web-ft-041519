@@ -10,7 +10,9 @@ class EmailParser
   def self.parse(email)
     list = email.collect do |items|
       data = row.split(", " || " ")
-      email = EmailParser.new 
+    end 
+    email = EmailParser.new 
+    email 
   end 
   
 end 
